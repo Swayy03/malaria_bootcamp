@@ -1,0 +1,50 @@
+{
+  "form:contact:clinic:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "CUHK5OQ7oIc46C8Z17i9Zw=="
+  },
+  "form:contact:clinic:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "nQoCNI7jlmuc/+tpcdti8g=="
+  },
+  "form:contact:district_hospital:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "I8w987/ZDb+zIepWL0GCbQ=="
+  },
+  "form:contact:district_hospital:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "ekmYHisxwSZLnBuBNZ/+Wg=="
+  },
+  "form:contact:health_center:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "ab42lPAzFE/Bck5wU07r9w=="
+  },
+  "form:contact:health_center:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "k7R1OzYUkrlSmC9c8+6zBQ=="
+  },
+  "form:contact:person:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "bFCuOfWGOcUuR1g2Tsq/VQ=="
+  },
+  "form:contact:person:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "/aMDtlTF+ABjIiHALLfAIA=="
+  },
+  "form:contact:area_supervisor_region:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "3y6uFNhEwqzsNuD+tQxRbw=="
+  },
+  "form:contact:area_supervisor_region:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "BLcPeix4cADiZkPYRJFapg=="
+  },
+  "form:contact:chp_supervisor:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "+ZqYrzy+aNsjUlf5+Y8VNw=="
+  },
+  "form:contact:chp_supervisor:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "y3KWtUeHWyaCWKeMJnYiAQ=="
+  },
+  "form:contact:chp:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "XfFKpCs0uHESd+tc4kC4yg=="
+  },
+  "form:contact:chp:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "SOLK0OXIpl6JaAY432RQrA=="
+  },
+  "form:contact:community_unit:create": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "JpTwLFATcnsCf4ERf2sOKg=="
+  },
+  "form:contact:community_unit:edit": {
+    "192-168-100-112.local-ip.medicmobile.org/medic": "TsZEEtzvblrV/fAylIsWhw=="
+  }
+}
