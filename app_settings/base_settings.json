@@ -319,8 +319,8 @@
         "id": "area_supervisor_region",
         "name_key": "contact.type.area_supervisor_region",
         "group_key": "contact.type.area_supervisor_region.plural",
-        "create_key": "contact.type.area_supervisor_region.new",
-        "edit_key": "contact.type.place.edit",
+        "create_key": "New Supervisor Region",
+        "edit_key": "Edit Supervisor Region",
         "icon": "medic-district-hospital",
         "parents": ["district_hospital"],
         "create_form": "form:contact:area_supervisor_region:create",
@@ -334,20 +334,19 @@
         "edit_key": "contact.type.place.edit",
         "icon": "medic-district-hospital",
         "parents": [
-          "district_hospital",
-          "area_supervisor_region"],
+          "chp_supervisor"
+        ],
         "create_form": "form:contact:community_unit:create",
         "edit_form": "form:contact:community_unit:edit"
       },
       {
-        "id": "area_community_health_supervisor",
-        "name_key": "contact.type.area_community_health_supervisor",
-        "group_key": "contact.type.area_community_health_supervisor.plural",
-        "create_key": "contact.type.area_community_health_supervisor.new",
+        "id": "chp_supervisor",
+        "name_key": "contact.type.chp_supervisor",
+        "group_key": "contact.type.chp_supervisor.plural",
+        "create_key": "contact.type.chp_supervisor.new",
         "edit_key": "contact.type.person.edit",
-        "primary_contact_key": "district_hospital.area_supervisor_region.field.contact",
+        "primary_contact_key": "area_supervisor_region.field.contact",
         "parents": [
-          "district_hospital",
           "area_supervisor_region"
         ],
         "icon": "medic-person",
@@ -363,10 +362,9 @@
         "group_key": "contact.type.chp.plural",
         "create_key": "contact.type.chp.new",
         "edit_key": "contact.type.person.edit",
-        "primary_contact_key": "district_hospital.area_supervisor_region.field.contact",
+        "primary_contact_key": "community_unit.field.contact",
         "parents": [
-          "district_hospital",
-          "area_supervisor_region",
+          "chp_supervisor",
           "community_unit"
         ],
         "icon": "medic-person",
