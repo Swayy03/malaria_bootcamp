@@ -334,6 +334,7 @@
         "edit_key": "contact.type.place.edit",
         "icon": "medic-district-hospital",
         "parents": [
+          "area_supervisor_region",
           "chp_supervisor"
         ],
         "create_form": "form:contact:community_unit:create",
@@ -343,15 +344,16 @@
         "id": "chp_supervisor",
         "name_key": "contact.type.chp_supervisor",
         "group_key": "contact.type.chp_supervisor.plural",
-        "create_key": "contact.type.chp_supervisor.new",
-        "edit_key": "contact.type.person.edit",
+        "create_key": "New CHA",
+        "edit_key": "Edit CHA",
         "primary_contact_key": "area_supervisor_region.field.contact",
         "parents": [
+          "district_hospital",
           "area_supervisor_region"
         ],
         "icon": "medic-person",
-        "create_form": "form:contact:area_community_health_supervisor:create",
-        "edit_form": "form:contact:area_community_health_supervisor:edit",
+        "create_form": "form:contact:chp_supervisor:create",
+        "edit_form": "form:contact:chp_supervisor:edit",
         "person": true
       },
       
@@ -359,10 +361,10 @@
       {
         "id": "chp",
         "name_key": "contact.type.chp",
-        "group_key": "contact.type.chp.plural",
-        "create_key": "contact.type.chp.new",
-        "edit_key": "contact.type.person.edit",
-        "primary_contact_key": "community_unit.field.contact",
+        "group_key": "chps",
+        "create_key": "New CHP",
+        "edit_key": "Edit CHP",
+        "primary_contact_key": "chp_supervisor.community_unit.field.contact",
         "parents": [
           "chp_supervisor",
           "community_unit"
